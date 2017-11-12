@@ -1,0 +1,24 @@
+.title{
+    text-align: center !important;
+    padding: 10px;
+    display:table;
+    margin:0 auto;
+}
+
+.clr-header, header {
+    text-align: center !important;
+    height: 80px !important;
+}
+
+.header, header{
+    display:inline-block !important;
+    color: #fafafa;
+    height: 5rem !important;
+    white-space: nowrap;
+}
+
+.nav {
+    text-align: center !important;
+    display:table;
+    margin:0 auto;
+}
