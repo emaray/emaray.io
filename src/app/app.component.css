@@ -34,3 +34,8 @@
     background-position: center 37%;
     background-blend-mode: multiply;
 }
+
+.bold-span {
+    font-weight: bold;
+}
+
