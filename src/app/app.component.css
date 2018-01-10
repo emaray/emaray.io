@@ -38,3 +38,24 @@
 .bold-span {
     font-weight: bold;
 }
+
+footer.footer {
+    display: block;
+    width: 100%;
+    background-color: #c5c3c3;
+    box-sizing: border-box;
+    padding: 3px 5%;
+}
+
+/* .rights {
+text-align: right;
+font-size: 85%;
+margin: 0px;
+display: inline-block;
+} */
+
+.footer-links {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
