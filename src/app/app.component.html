@@ -1,30 +1,18 @@
 <clr-main-container>
-  <!-- <clr-header>
-   
-    <span class="title">
-        <span style="font-size:xx-large; font-weight: bold; font-style:italic;">em · ar · ay</span>
-        <br>
-      <span style="font-size:xx-large; font-weight: bold;">Megan R. Adams</span>
-      <br>
-      <span style="font-size:x-large; font-weight: bold;">Librarian | Scholar | Bird Enthusiast</span>
-    </span>
-  </clr-header> -->
-  <div class="banner">
-
-  </div>
+  <div class="banner"></div>
   <nav class="subnav">
     <ul class="nav">
       <li class="nav-item">
-        <a class="nav-link" href="#" [routerLink]="['/about']">About Megan</a>
+        <a class="nav-link" [routerLink]="['about']">About Megan</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" [routerLink]="['/cv']">CV</a>
+        <a class="nav-link" [routerLink]="['cv']">CV</a>
       </li>
       <!-- <li class="nav-item">
         <a class="nav-link" href="#" [routerLink]="['/interests']">Professional Interests</a>
       </li> -->
       <li class="nav-item">
-        <a class="nav-link" href="#" [routerLink]="['/portfolio']">Portfolio</a>
+        <a class="nav-link" [routerLink]="['portfolio']">Portfolio</a>
       </li>
     </ul>
   </nav>
@@ -36,7 +24,6 @@
   </div>
 
   <footer class="footer">
-
     <div class="footer-links">
       <a href="#">
         <img alt="LinkedIn icon" src="../assets/In-White-28px-R.png">
@@ -48,9 +35,5 @@
         <img alt="eBird icon" src="../assets/ebird-16px.png">
       </a> -->
     </div>
-
   </footer>
-
-
-
 </clr-main-container>

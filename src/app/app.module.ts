@@ -4,7 +4,6 @@ import { NgModule } from '@angular/core';
 
 import { ClarityModule } from "clarity-angular";
 
-
 import { AppComponent } from './app.component';
 import { ROUTING } from "./app.routing";
 import { AboutComponent } from './about/about.component';
