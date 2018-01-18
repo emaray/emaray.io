@@ -6,6 +6,12 @@
     height:550px;
 }
 
+
+.card.clickable:hover {
+    box-shadow: 0 0.125rem 0 0 #9A9A9A !important;
+    border: 1px solid #9A9A9A !important;
+
+}
   
   
   

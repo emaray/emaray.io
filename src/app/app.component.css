@@ -50,7 +50,7 @@
 footer.footer {
     display: block;
     width: 100%;
-    background-color: #c5c3c3;
+    background-color: #CCCCCC;
     box-sizing: border-box;
     padding: 3px 5%;
 }
@@ -66,6 +66,7 @@ display: inline-block;
     margin: auto;
     display: flex;
     justify-content: center;
+    padding: 4px;
 }
 
 .nav .nav-link.active, .nav .nav-link:active, .nav .nav-link:focus, .nav .nav-link:hover {
@@ -73,6 +74,15 @@ display: inline-block;
     text-decoration-line: none;
     text-decoration-style: initial;
     text-decoration-color: initial;
-    box-shadow: inset 0 -3px 0 #007cbb !important;
+    box-shadow: inset 0 -3px 0 #57a581 !important;
     transition: box-shadow .2s ease-in !important;
+    font-weight: 500;
 }
+
+
+#li {
+padding-top: 1.5px;
+padding-right: 4px;
+}
+
+
