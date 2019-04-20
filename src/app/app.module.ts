@@ -11,6 +11,7 @@ import { CVComponent } from './cv/cv.component';
 import { InterestsComponent } from './interests/interests.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { KirtlandswarblervizComponent } from './kirtlandswarblerviz/kirtlandswarblerviz.component';
+import { TeachingStatementComponent } from './teaching-statement/teaching-statement.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { KirtlandswarblervizComponent } from './kirtlandswarblerviz/kirtlandswar
     CVComponent,
     InterestsComponent,
     PortfolioComponent,
-    KirtlandswarblervizComponent
+    KirtlandswarblervizComponent,
+    TeachingStatementComponent
   ],
   imports: [
     BrowserAnimationsModule,
